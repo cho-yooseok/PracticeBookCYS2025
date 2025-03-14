@@ -21,8 +21,8 @@ public class StreamSortExample {
 
 /*
 코드 설명
-1.리스트 생성 : Arrays.asList() 를 사용하여 문자열 리스트를 생성
-2.스트림 생성 : list.stream() 을 통해 리스트에서 스트림을 생성
+1.리스트 생성 : Arrays.asList() 를 사용하여 문자열 리스트를 생성.
+2.스트림 생성 : list.stream() 을 통해 리스트에서 스트림을 생성.
 3.중간 연산:
     sorted(): 스트림의 요소를 기본 정렬 순서(알파벳 순)로 정렬
 4.최종 연산 collect(Collectors.toList()) 를 사용하여 정렬된 결과를 리스트로 수집.
